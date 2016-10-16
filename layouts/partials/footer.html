@@ -1,10 +1,10 @@
 <div class="FooterContainer">
     <footer class="Footer">
-        <img  class="Footer__head" src="./image/profile.png" alt="profile-image" />
+        <img  class="Footer__head" src="./images/profile.png" alt="profile-image" />
         <div class="Footer__body">
             <i class="fa fa-copyright" aria-hidden="true"></i>
             <span>{{ .Site.Params.copyriteYear }}</span>
-            <span><a href="./about.html">{{ .Site.auther }}</a></span>
+            <span><a href="./about.html">{{ .Site.Params.copyriteName }}</a></span>
         </div>
     </footer>
 </div>
@@ -19,7 +19,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{{ .Site.googleAnalytics }}', 'auto');
+  ga('create', '{{ .Site.Params.googleAnalytics }}', 'auto');
   ga('send', 'pageview');
 </script>
 

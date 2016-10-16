@@ -29,6 +29,7 @@
                     <span>{{ .Params.description }}</span>
                 </div>
             </article>
+            {{ end }}
 
             <nav class="Pagenation">
                 {{ if .Paginator.HasNext }}
@@ -50,7 +51,7 @@
             </nav>
         </main>
 
-        {{ partial "sidebar.html" }}
+        {{ partial "sidebar.html" . }}
 
     </div>
 
