@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.ListItem {
+    border-bottom: 1px solid $color-bottom-border;
+    margin: 0 $size-margin-2column 24px 12px;
+    padding: 0 0 24px 0;
+    &:last-of-type {
+        border-bottom: none;
+        margin: 0 $size-margin-2column 0 10px;
+    }
+    &__head {
+        font-size: 18px;
+    }
+    &__body {
+        font-size: 15px;
+        color: $color-sub-text;
+        margin: 8px 0 0 0;
+        @include link-active;
+    }
+}
