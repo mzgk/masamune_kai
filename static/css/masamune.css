@@ -2411,6 +2411,7 @@ pre {
   margin: 0 0 20px 0; }
 
 code {
+  max-width: 728px;
   font-family: monospace;
   font-size: 14px;
   padding: 0.3em;
@@ -2695,5 +2696,8 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     align-self: flex-start; }
   .Product__link {
     align-self: flex-end; }
+
+.Disqus {
+  margin: 160px 60px 0 12px; }
 
 /*# sourceMappingURL=masamune.css.map */
