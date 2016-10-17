@@ -33,17 +33,17 @@
 
             <nav class="Pagenation">
                 <div class="Pagenation__older">
-                    {{ if .Next }}
-                    <a href="{{ .Next.Permalink }}">
+                    {{ if .PrevInSection }}
+                    <a href="{{ .PrevInSection.Permalink }}">
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                        {{ .Next.Title }}
+                        {{ .PrevInSection.Title }}
                     </a>
                     {{ end }}
                 </div>
                 <div class="Pagenation__newer">
-                    {{ if .Prev }}
-                    <a href="{{ .Prev.Permalink }}">
-                        {{ .Prev.Title }}
+                    {{ if .NextInSection }}
+                    <a href="{{ .NextInSection.Permalink }}">
+                        {{ .NextInSection.Title }}
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     {{ end }}
