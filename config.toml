@@ -10,13 +10,12 @@ theme = "masamune"
 
 # Hugo Built-in Features
 disqusShortname = "mzgkworks-com"
-# googleAnalytics = "UA-82194549-1"
 enableRobotsTXT = true
 
 [params]
 subTitle = "Stack the little bets."
-copyriteYear = "2016"
-copyriteName = "mzgk"
+copyrightYear = "2016"
+copyrightName = "mzgk"
 profileImage = "./images/profile.png"
 googleAnalytics = "UA-82194549-1"
 
