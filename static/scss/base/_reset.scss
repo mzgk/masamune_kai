@@ -28,12 +28,12 @@ li {
 
 // コードエリアの上下マージン
 pre {
-    margin: 0 0 20px 0;
+    margin: 0 0 $size-base-margin*5 0;
 }
 
 // Inlineコード用。Solarized-dark.scssに合わせた
 code {
-    max-width: 728px;
+    max-width: $size-site-width/6*5 - $size-margin-2column - $size-left-indent;
     font-family: monospace;
     font-size: 14px;
     padding: 0.3em;

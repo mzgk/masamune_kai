@@ -3,9 +3,11 @@
 // ===========================
 // Size
 // ===========================
-$size-site-width: 1000px;
+$size-site-width: 1200px;
+$size-base-margin: 4px;
+$size-margin-2column: $size-base-margin*10;     // カラム間のマージン
+$size-left-indent: $size-base-margin*3;        // 本文の開始位置（タイトルからの字下げ）
 $size-header-height: 128px;
-$size-margin-2column: 60px;
 
 
 // ===========================

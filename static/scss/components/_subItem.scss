@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .SubItem {
-    margin: 0 0 0 12px;
+    margin: 0 0 0 $size-left-indent;
     ul {
         list-style: none;
     }

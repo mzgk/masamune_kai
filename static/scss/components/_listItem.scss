@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 .ListItem {
-    border-bottom: 1px solid $color-bottom-border;
-    margin: 0 $size-margin-2column 24px 12px;
-    padding: 0 0 24px 0;
+    @include border-bottom;
+    margin: 0 $size-margin-2column $size-base-margin*6 $size-left-indent;
+    padding: 0 0 $size-base-margin*6 0;
     &:last-of-type {
         border-bottom: none;
-        margin: 0 $size-margin-2column 0 10px;
+        margin: 0 0 0 $size-left-indent;
     }
     &__head {
         font-size: 18px;
@@ -14,7 +14,7 @@
     &__body {
         font-size: 15px;
         color: $color-sub-text;
-        margin: 8px 0 0 0;
+        margin: $size-base-margin*2 0 0 0;
         @include link-active;
     }
 }

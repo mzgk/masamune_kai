@@ -10,7 +10,7 @@
         border-radius: 100%;
     }
     &__body {
-        margin: 12px 0 0 0;
+        margin: $size-base-margin*3 0 0 0;
         text-align: center;
         @include link-active;
     }

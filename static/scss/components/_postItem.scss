@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 .PostItem {
-    max-width: $size-site-width/5*4;
-    @include header-leftcolumn-margin;
+    max-width: $size-site-width/6*5;
+    margin: $size-base-margin*10 $size-margin-2column $size-base-margin*5 0;
     &__head {
         @include border-left;
     }
@@ -16,7 +16,7 @@
         @include link-active;
     }
     &__body {
-        margin: 28px 0 0 12px;
+        margin: 28px 0 0 $size-left-indent;
         @include link-active;
     }
 
@@ -25,7 +25,7 @@
         font-size: 18px;
         margin: 48px 0 20px 0;
         padding-bottom: 4px;
-        border-bottom: 1px solid $color-bottom-border;
+        @include border-bottom;
         &:first-child {
             margin-top: 0;
         }

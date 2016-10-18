@@ -21,6 +21,6 @@
     padding: 4px 0 4px 8px;
 }
 
-@mixin header-leftcolumn-margin($left: 0) {
-    margin: 40px $size-margin-2column 20px $left;
+@mixin border-bottom() {
+    border-bottom: 1px solid $color-bottom-border;
 }
